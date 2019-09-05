@@ -1,0 +1,196 @@
+.title{
+    background: #121212;
+    height: 62px;
+    border: 1px solid #121212;
+}
+.gameLogo{
+    height: 43px;
+    margin-top: 12px;
+}
+
+.xialist{
+
+    height: 48.4px;
+    position: absolute;
+    left: 45px;
+    top: 15px;
+}
+
+
+.p1{
+    margin: 0px;
+    color: #a29c90;
+    font-size: 12px;
+    /*-webkit-margin-before: 0px;*/
+}
+.p2{
+    margin: 0px;
+}
+
+.banner{
+    width: 616.8px;
+    height: 62.4px;
+    margin: -56px auto 0px;
+}
+.logo{
+    display: inline-block;
+    height: 62.4px;
+    vertical-align: middle;
+}
+.link:after{
+    content: "";
+    position: absolute;
+    top: 16px;
+    width: 2px;
+    height: 30px;
+    background: #262626;
+}
+
+
+.link{
+    display: inline-block;
+    height: 49.6px;
+    /*position: absolute;*/
+    /*left:40.5%;*/
+    /*top:20px;*/
+    color: #FFFFFF;
+}
+
+.link a{
+    vertical-align: middle;
+    text-align: center;
+    /*border-bottom: 2px solid #c9aa71;*/
+    text-decoration: none;
+    font-size: 14px;
+    color: #c9aa71;
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 10px 0px;
+}
+.login{
+    height:33.6px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+#unlogin{
+    line-height: 32px;
+
+}
+#dologin {
+    color: #c9aa71;
+    text-decoration: none;
+}
+.logined{
+    height: 33.6px;
+    color:#bb9e69;
+    line-height: 32px;
+
+}
+.login dt{
+    height: 32px;
+    border-right: 1px solid #262626;
+    padding-right: 16px;
+  display: inline-block;
+    vertical-align: middle;
+}
+
+#long_qq_span{
+    font-size: 13.6px;
+    color: #bb9e69;
+}
+#dologout{
+    font-size: 11px;
+    color: #bb9e69;
+    text-decoration: none;
+}
+
+.login dd{
+    height: 33.6px;
+    width: 141px;
+}
+
+.motai{
+    display: none;
+    background-color: rgb(230,245,255);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    opacity: 0.6;
+}
+.loginDiv{
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    width:622px;
+    height:373px;
+    left: 30%;
+    top: 30%;
+    display: none;
+    z-index: 2;
+}
+.loginTitle{
+    margin-top: 45px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.qlogin{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+form input{
+    width: 210px;
+    height: 28px;
+    margin-bottom: 20px;
+}
+
+.loginkuang{
+    text-align: center;
+}
+.oklogin{
+    background: #86CE2F;
+    margin-left: -8px;
+    width: 210px;
+    height: 32px;
+}
+
+
+
+/*集锦弹出部分*/
+.jjTan{
+    background-color: #121212;
+    border: 1px solid #262626;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: none;
+}
+.jjTan a{
+    text-decoration: none;
+    color: #bb9e69
+}
+
+.rejjTan{
+    background-color: #121212;
+    border: 1px solid #262626;
+    /*margin-top: 63px;*/
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: none;
+}
+.rejjTan a{
+    text-decoration: none;
+    color: #bb9e69
+}
