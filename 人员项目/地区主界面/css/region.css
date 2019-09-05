@@ -1,0 +1,824 @@
+/*
+ * 主界面
+ */
+
+.yemian_background_color {
+	background-color: #0A0A0C;
+	color: #C4B998;
+	font-size: 14px;
+}
+
+#hsize {
+	font-size: 35px;
+	color: #D3C7AA;
+}
+
+li {
+	list-style: none;
+}
+
+
+/*
+ * 德玛西亚
+ */
+
+.zhujiamian_dema {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/德玛西亚.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_dema {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_dema {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_dema {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 祖安
+ */
+
+.zhujiamian_zuan {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/祖安.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_zuan {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_zuan {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_zuan {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 皮尔沃特夫
+ */
+
+.zhujiamian_pier {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/皮尔沃特夫.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_pier {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_pier {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_pier {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 暗影岛
+ */
+
+.zhujiamian_anyd {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/暗影岛.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_anyd {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_anyd {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_anyd {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 巨神峰
+ */
+
+.zhujiamian_jushenf {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/巨神峰.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_jushenf {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_jushenf {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_jushenf {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 恕瑞玛
+ */
+
+.zhujiamian_shuruima {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/恕瑞玛.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_shuruima {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_shuruima {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_shuruima {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 比尔吉沃特
+ */
+
+.zhujiamian_bierji {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/比尔吉沃特.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_bierji {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_bierji {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_bierji {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 艾欧尼亚
+ */
+
+.zhujiamian_aiouniya {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/艾欧尼亚.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_aiouniya {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_aiouniya {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_aiouniya {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 弗雷尔卓德
+ */
+
+.zhujiamian_fuleier {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/弗雷尔卓德.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_fuleier {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_fuleier {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_fuleier {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 诺克萨斯
+ */
+
+.zhujiamian_nkesasi {
+	background-color: gray;
+	width: 1197px;
+	height: 418px;
+	background: url(../主界面img/诺克萨斯.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_nkesasi {
+	width: 1197px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_nkesasi {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_nkesasi {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 虚空之地
+ */
+
+.zhujiamian_xukzhidi {
+	background-color: gray;
+	width: 583px;
+	height: 418px;
+	background: url(../主界面img/虚空之地.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_xukzhidi {
+	width: 583px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_xukzhidi {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_xukzhidi {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 班德尔城
+ */
+
+.zhujiamian_bandeercheng {
+	background-color: gray;
+	width: 583px;
+	height: 418px;
+	background: url(../主界面img/班德尔城.png);
+	border: 1px solid #32281F;
+	position: relative;
+}
+
+.zhujiemian_div_size_01_bandeercheng {
+	width: 583px;
+	background-color: #17181C;
+	position: absolute;
+	bottom: 0px;
+}
+
+.zhujiemian_li_01_bandeercheng {
+	height: 100px;
+	margin-top: -4px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	font-size: 50px;
+	color: #9B7E48;
+	line-height: 90px;
+}
+
+.zhujiemian_li_02_bandeercheng {
+	height: 55px;
+	font-size: 12px;
+	color: #9B7E48;
+	line-height: 50px;
+	border-top: 1px solid #927345;
+	background-color: #17181C;
+	display: none;
+}
+
+
+/*
+ * 德玛西亚界面
+ */
+
+.font_size_02 {
+	font-size: 100px;
+	color: #8D6D38;
+}
+
+.diqijieshao_01 {
+	width: 483px;
+	color: #C4B998;
+	text-align: left;
+	font-size: 14px;
+}
+
+.de {
+	font-size: 45px;
+}
+
+.btn_01 {
+	width: 240px;
+	height: 68px;
+	vertical-align: middle;
+	display: table-cell;
+	font-size: 14px;
+	color: #937341;
+	background-color: #16181C;
+	border: 2px solid #C2A657;
+}
+
+.store_img:hover #store_img {
+	transform: scale(1.1, 1.1);
+	transition: .2s transform;
+}
+
+.yuajing_01 {
+	width: 1348px;
+}
+
+.yinyue_border_size_01 {
+	width: 1280px;
+	height: 480px;
+	background-color: #0A0C10;
+	border: 1px solid #504730;
+}
+
+.yinyue_bfq_size_01 {
+	width: 66%;
+	height: 100%;
+	border: 10px solid none;
+}
+
+.yinyue_font_01 {
+	width: 33%;
+	height: 100%;
+	font-size: 40px;
+	text-align: center;
+}
+
+.padd {
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.yingxiong_btn_01 {
+	width: 310px;
+	height: 68px;
+	border: 2px solid #C3A758;
+	background-color: #16181C;
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+
+
+/*
+* 比尔吉沃特
+*/
+
+.demaxieya_bierji {
+	width: 605px;
+	height: 320px;
+	border: 1px solid #32281F;
+	background: url(../德玛西亚img/小比尔吉沃特.jpg);
+	position: relative;
+}
+
+.demaxieya_bierji_font {
+	width: 100%;
+	background-color: #0D0E0F;
+	color: #937341;
+	position: absolute;
+	bottom: 0px;
+}
+
+.demaxieya_li_01_bierji {
+	height: 70px;
+	border-top: 1px solid #715938;
+	line-height: 60px;
+}
+
+.demaxieya_li_02_bierji {
+	height: 60px;
+	border-top: 1px solid #715938;
+	line-height: 40px;
+	display: none;
+}
+
+
+/*
+* 弗雷尔卓德
+*/
+
+.demaxieya_fuleier {
+	width: 605px;
+	height: 320px;
+	border: 1px solid #32281F;
+	background: url(../德玛西亚img/小弗雷尔卓德.jpg);
+	position: relative;
+}
+
+.demaxieya_fuleier_font {
+	width: 100%;
+	background-color: #0D0E0F;
+	color: #937341;
+	position: absolute;
+	bottom: 0px;
+}
+
+.demaxieya_li_01_fuleier {
+	height: 70px;
+	border-top: 1px solid #715938;
+	line-height: 60px;
+}
+
+.demaxieya_li_02_fuleier {
+	height: 60px;
+	border-top: 1px solid #715938;
+	line-height: 40px;
+	display: none;
+}
+
+.demaxieya_bierji:hover {
+	transform: scale(1.05, 1.05);
+	transition: .2s transform;
+}
+
+.demaxieya_fuleier:hover {
+	transform: scale(1.05, 1.05);
+	transition: .2s transform;
+}
+
+
+/*德玛西亚之力*/
+
+.demaxieya_yx_dema {
+	height: 425px;
+	width: 242px;
+	background: url(../德玛西亚img/德玛西亚之力.png);
+	border: 1px solid saddlebrown;
+	position: relative;
+}
+
+.demaxy_div_dema {
+	width: 242px;
+	color: #937341;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+}
+
+.demaxy_font_dema_01 {
+	background-color: #21170E;
+	height: 80px;
+	border-top: 1px solid #937341;
+}
+
+.demaxy_font_dema_02 {
+	background-color: #21170E;
+	height: 60px;
+	border-top: 1px solid #937341;
+	display: none;
+}
+
+
+/*琴瑟仙女*/
+
+.demaxieya_yx_xn {
+	height: 425px;
+	width: 242px;
+	background: url(../德玛西亚img/琴瑟仙女.png);
+	border: 1px solid saddlebrown;
+	position: relative;
+}
+
+.demaxy_div_xn {
+	width: 242px;
+	color: #937341;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+}
+
+.demaxy_font_xn_01 {
+	background-color: #21170E;
+	height: 80px;
+	border-top: 1px solid #937341;
+}
+
+.demaxy_font_xn_02 {
+	background-color: #21170E;
+	height: 60px;
+	border-top: 1px solid #937341;
+	display: none;
+}
+
+
+/*光辉女郎*/
+
+.demaxieya_yx_gunghui {
+	height: 425px;
+	width: 242px;
+	background: url(../德玛西亚img/光辉女郎.png);
+	border: 1px solid saddlebrown;
+	position: relative;
+}
+
+.demaxy_div_gunghui {
+	width: 242px;
+	color: #937341;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+}
+
+.demaxy_font_gunghui_01 {
+	background-color: #21170E;
+	height: 80px;
+	border-top: 1px solid #937341;
+}
+
+.demaxy_font_gunghui_02 {
+	background-color: #21170E;
+	height: 60px;
+	border-top: 1px solid #937341;
+	display: none;
+}
+
+
+/*德玛西亚皇子*/
+
+.demaxieya_yx_huangzi {
+	height: 425px;
+	width: 242px;
+	background: url(../德玛西亚img/德玛西亚皇子.png);
+	border: 1px solid saddlebrown;
+	position: relative;
+}
+
+.demaxy_div_huangzi {
+	width: 242px;
+	color: #937341;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+}
+
+.demaxy_font_huangzi_01 {
+	background-color: #21170E;
+	height: 80px;
+	border-top: 1px solid #937341;
+}
+
+.demaxy_font_huangzi_02 {
+	background-color: #21170E;
+	height: 60px;
+	border-top: 1px solid #937341;
+	display: none;
+}
+
+
+/*圣枪游侠*/
+
+.demaxieya_yx_youxia {
+	height: 425px;
+	width: 242px;
+	background:url(../德玛西亚img/圣枪游侠.png);
+	border: 1px solid saddlebrown;
+	position: relative;
+}
+
+.demaxy_div_youxia {
+	width: 242px;
+	color: #937341;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+}
+
+.demaxy_font_youxia_01 {
+	background-color: #21170E;
+	height: 80px;
+	border-top: 1px solid #937341;
+}
+
+.demaxy_font_youxia_02 {
+	background-color: #21170E;
+	height: 60px;
+	border-top: 1px solid #937341;
+	display: none;
+}
