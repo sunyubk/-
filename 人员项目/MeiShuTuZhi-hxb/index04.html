@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>《英雄联盟》 宇宙</title>
+		<link rel="icon" href="img/favicon.ico">
+	</head>
+	<style type="text/css">
+		@import url("css/index03.css");
+	</style>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$("li").mouseover(function() {
+				$(this).css("color", "#2B323B");
+			})
+			$("li").mouseout(function() {
+				$(this).css("color", "#BDB088");
+			})
+			$("a:eq(3)").css("color","#2B323B");
+            $("a:gt(3)").mouseover(function() {
+				$(this).css("color", "#2B323B");
+			})
+			$("a:gt(3)").mouseout(function() {
+				$(this).css("color", "#BDB088");
+			})
+          $("a:lt(3)").mouseover(function() {
+				$(this).css("color", "#2B323B");
+			})
+			$("a:lt(3)").mouseout(function() {
+				$(this).css("color", "#BDB088");
+			})
+		})
+	</script>
+
+	<body>
+		<div class="big">
+			<div style="background:#1c2229 ;">
+				<a href="../../index.html"><img src="img/gold.png" style="height: 25px;"></a>
+			</div>
+			<div id="xiu">
+				<div class="title">
+				群雄并举
+			</div>
+			<div class="text">
+				<p>自从游戏发布以来，英雄的插画就一直是《英雄联<br/>
+					盟》最显眼的要素，虽然过了几年我们才意识到这些<br/>
+					插画在叙事方面的潜力。随着游戏不断进化，我们也<br/>
+					迎来了许多古怪而有趣的主题。要么是史前的恐龙大<br/>
+					战，要么是雄浑的科幻历险；要么是真实世界中的电<br/>
+					竞大赛，要么是一场死亡金属演唱会。
+				</p>
+			</div>
+			</div>
+		</div>
+		<div id="zhong">
+			<div id="div2">
+				<ol style="display:table;height:auto;margin:0 auto">
+					<li id="1"><a href="first.html">序言</a></li>
+					<li id="2">
+					<a href="index02.html">英雄谱</a>
+					</li>
+					<li><a href="index03.html">召唤师峡谷</a></li>
+					<li><a href="index04.html">群雄并举</li>
+					<li><a href="index05.html">鸣谢</li>
+				</ol>
+			</div>
+		</div>
+		<div class="img">
+			<img src="img/tw_01.jpg"/>
+		</div>
+		<div id="end"></div>
+	</body>
+
+</html>

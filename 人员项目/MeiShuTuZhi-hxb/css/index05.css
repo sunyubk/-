@@ -1,0 +1,72 @@
+
+body{
+	margin: 0;
+}
+.title{
+	text-align: center;
+    letter-spacing: 3px;
+    padding-top: 70px;
+}
+.big{
+	position: static;
+	background-color:white; 
+}
+.text{
+	
+	width: 607px;
+	padding-bottom:200px;
+	margin: 0px auto;
+	color:#C4A366 ;
+	font-size: 20px;
+	line-height: 1.5em;
+	letter-spacing: 0.06em;
+}
+span{
+	width: 100px;
+}
+p{
+	margin-top: 0;
+}
+#div2 li {
+	list-style: none;
+	float: left;
+	font-size: 14px;
+	color: black;
+	padding:5px 35px;
+	cursor:pointer 
+}
+#div2 {
+	width: 100%;
+}
+#zhong{
+	width: 100%;
+	height: 8%;
+	background-color: white;
+	position:fixed; 
+    bottom: 0;
+	
+	
+}
+a{
+	text-decoration: none;
+	color: #BDB088;
+}
+.end{
+	height: 300px;
+	background-color: white;
+}
+.title01{
+	color: #937341;
+    margin: 0;
+    font-size:30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    }
+    .t{
+    	padding-top: 40px;
+    }
+#colo{
+	color: #2B323B;
+}
+a:hover {text-decoration: none;}

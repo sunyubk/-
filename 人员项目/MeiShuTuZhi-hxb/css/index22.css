@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+
+#div1 {
+	background:#0A0A0C;
+	text-align: center;
+	padding-top:146px;
+	height: 100%;
+}
+
+#div1_title {
+	color: #d4c9a9;
+	letter-spacing: 14px;
+	font-size: 47px;
+	padding-bottom: 500px;
+	/*position: relative;
+  			left:200px;
+  			top: 100px;*/
+}
+
+.title {
+	color: #D4C9A9;
+	letter-spacing: 15px;
+	font-size: 47px;
+	margin-top: 278px;
+	background-color: #1c2229;
+	height: 70px;
+}
+
+#3 {
+	height: 550px;
+}
+
+#div2 {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	cursor:pointer ;
+}
+
+#div2 li {
+	list-style: none;
+	float: left;
+	margin: 24px;
+	font-size: 14px;
+	color: #BDB088;
+}
+#div2 a{
+	text-decoration: none;
+	color: #BDB088;
+}
+   
+.component-button nav button previous{
+	
+	display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    vertical-align: middle;   
+    background-repeat: no-repeat;
+}
+
+#div2 a:hover{
+	text-decoration: none;
+}
+#button a:hover{
+	text-decoration: none;
+}
+#button a{
+	color:#BDB088 ;
+	font-size: 24px;
+}
+.linkcenter a{
+	color:#c9aa71 ;
+	font-weight: bold;
+}
+.linkcenter a:hover{
+	color: #BDB088;
+}
